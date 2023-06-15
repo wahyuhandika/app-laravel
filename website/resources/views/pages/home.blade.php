@@ -7,7 +7,6 @@
 @section('content')
     <div>
         @include('/partials.navbar')
-@include('/partials.navbar')
     </div>
     @include('/partials.formlogin')
 @endsection
