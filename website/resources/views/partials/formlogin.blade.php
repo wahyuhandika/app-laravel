@@ -1,40 +1,29 @@
-<div class="container p-5 d-flex flex-column justify-content-center align-items-center">
-    <form style="padding-top: 25vh">
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-                style="
-                font-size: 18px;
-                font-weight: 500;
-                margin-left: 1vh;
-                ">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+<div class="wrapper">
+    <div class="container main">
+        <div class="row">
+            <div class="col-md-6 side-image">
+                <!-------Image-------->
+                <img src="image/logo.png" alt="">
+            </div>
+            <div class="col-md-6 right">
+                <div class="input-box">
+                    <header>Create account</header>
+                    <div class="input-field">
+                        <input type="text" class="input" id="email" required autocomplete="off">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="input" id="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="submit" class="submit" value="Sign Up">
+                    </div>
+                    <div class="signin">
+                        <span>Already have an account? <a href="#">Log in here</a></span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"
-                style="
-            font-size: 18px;
-            font-weight: 500;
-            margin-left: 1vh;
-            ">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="d-flex flex-column">
-            <button type="submit" class="btn btn-primary mb-2">
-                <a href="/welcome"
-                    style="
-                    text-decoration: none;
-                    color: white
-                    ">Login
-                </a>
-            </button>
-            <button type="submit" class="btn btn-primary ">
-                <a href="partials/formregistrasi"
-                    style="
-                    text-decoration: none;
-                    color: white
-                    ">
-                    Belum Punya Akun? Registrasi Disini!!</a>
-            </button>
-        </div>
-    </form>
+    </div>
 </div>
