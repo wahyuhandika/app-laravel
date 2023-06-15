@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.layouts')
 
 @section('css')
     <link rel="stylesheet" href="css/bg.css">
@@ -7,6 +7,7 @@
 @section('content')
     <div>
         @include('/partials.navbar')
+@include('/partials.navbar')
     </div>
     @include('/partials.formlogin')
 @endsection
