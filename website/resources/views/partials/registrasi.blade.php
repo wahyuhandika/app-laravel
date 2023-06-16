@@ -25,8 +25,8 @@
                                 <div class="form-group">
                                     <label for="cppassword">Konfirmasi Password
                                     </label>
-                                    <input class="form-control" id="cppassword" name="cppassword" data-eye type="password"
-                                        placeholder="Konfirmasi Password" required>
+                                    <input class="form-control" id="cppassword" name="cppassword" data-eye
+                                        type="password" placeholder="Konfirmasi Password" required>
                                 </div>
 
                                 <div class="form-group">
