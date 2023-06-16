@@ -1,11 +1,7 @@
-@extends('layouts.layouts')
-
-@section('css')
-    <link rel="stylesheet" href="css/bg.css">
-    <link rel="stylesheet" href="css/form/login.css">
-@endsection
+@extends('layouts.main')
 
 @section('content')
     @include('/partials.navbar')
-    @include('/partials.formlogin')
+    @include('/partials.carousel')
+    @include('/partials.login')
 @endsection
