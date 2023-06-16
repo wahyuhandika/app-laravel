@@ -1,0 +1,199 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.my-login-page {
+    margin-top: 10vh;
+    font-size: 14px;
+}
+
+.my-login-page .brand {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+    position: relative;
+    z-index: 1;
+}
+
+.my-login-page .brand img {
+    width: 100%;
+}
+
+.my-login-page .card-wrapper {
+    width: 450px;
+}
+
+.my-login-page .card {
+    border-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.my-login-page .card.fat {
+    background-color: rgba(155, 88, 88, 0.5);
+    border-radius: 30px;
+}
+
+.my-login-page .card.fat h4 {
+    color: yellow;
+    font-size: 30px;
+}
+
+.my-login-page .card .card-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.my-login-page .form-control {
+    border-width: 2.3px;
+    font-weight: 500;
+}
+
+.my-login-page .form-group label {
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: yellow;
+    margin-left: 3px;
+    font-weight: 500;
+}
+
+.form-group input {
+    margin-bottom: 10px;
+}
+
+.my-login-page .btn.btn-block {
+    padding: 12px 10px;
+}
+
+.my-login-page .footer {
+    margin: 40px 0;
+    color: #888;
+    text-align: center;
+}
+
+.form-group a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.form-group button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form-group .btn {
+    border-radius: 20px;
+    background-color: yellow;
+    font-weight: 500;
+}
+
+.reg {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.reg a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+
+/* Responsive Web + Phone */
+@media screen and (max-width: 575px) {
+    .my-login-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: auto;
+    }
+
+    .my-login-page .brand {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: 15px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+        z-index: 1;
+    }
+
+    .my-login-page .card-wrapper {
+        width: 350px;
+        height: auto;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .my-login-page .card.fat {
+        padding: 0px;
+        margin: 0px;
+        background-color: rgba(155, 88, 88, 0.5);
+        border-radius: 30px;
+    }
+
+    .my-login-page .card.fat h4 {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .my-login-page .form-control {
+        border-width: 2px;
+        border: 1px solid yellow;
+        font-weight: 500;
+        height: 35px;
+    }
+
+    .my-login-page .form-group label {
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: white;
+        margin-left: 3px;
+        font-weight: 500;
+    }
+
+    .form-group input {
+        margin-bottom: 10px;
+    }
+
+    .my-login-page .btn.btn-block {
+        padding: 12px 10px;
+    }
+
+    .my-login-page .footer {
+        margin: 40px 0;
+        color: #888;
+        text-align: center;
+    }
+
+    .form-group a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        margin-left: 5px;
+    }
+
+    .form-group button {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}

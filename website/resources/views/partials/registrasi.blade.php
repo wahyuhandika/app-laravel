@@ -8,10 +8,10 @@
                     </div>
                     <div class="card fat">
                         <div class="card-body">
-                            <h4 class="card-title">Login</h4>
+                            <h4 class="card-title">Registrasi</h4>
                             <form class="my-login-validation" method="POST" novalidate="">
                                 <div class="form-group">
-                                    <label for="username">Username</label>
+                                    <label class="for="username">Username</label>
                                     <input class="form-control" id="username" name="username" type="username"
                                         value="" placeholder="Masukan username" required autofocus>
                                 </div>
@@ -21,18 +21,21 @@
                                     </label>
                                     <input class="form-control" id="password" name="password" data-eye type="password"
                                         placeholder="Masukan Password" required>
-                                    <a class="float-right" href="forgot.html">
-                                        Forgot Password?
-                                    </a>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Konfirmasi Password
+                                    </label>
+                                    <input class="form-control" id="password" name="password" data-eye type="password"
+                                        placeholder="Konfirmasi Password" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <button class="btn btn-block" type="submit">
-                                        Login
+                                    <button class="btn btn-warning btn-block" type="submit">
+                                        Daftar Sekarang
                                     </button>
                                 </div>
                                 <div class="reg">
-                                    <span>Tidak Mempunyai Akun</span> <a href="/registrasi">Daftar Disini !!!</a>
+                                    <span>Sudah Punya Akun?</span> <a href="/login">Login Disini !!!</a>
                                 </div>
                             </form>
                         </div>

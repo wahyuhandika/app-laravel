@@ -16,8 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages/home');
 });
-Route::get('partials/formregistrasi', function () {
-    return view('pages/welcome');
+Route::get('/registrasi', function () {
+    return view('pages/registrasi');
 });
-
+Route::get('/login', function () {
+    return view('pages/login');
+});
 
