@@ -1,5 +1,7 @@
 <!doctype html>
 <html lang="en">
+    {{-- Dark Mode --}}
+    {{-- data-bs-theme="light/dark" --}}
 
 <head>
     <meta charset="utf-8">

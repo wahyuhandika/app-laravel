@@ -1,16 +1,6 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-    background-image: url(/image/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 .my-login-page {
-    margin-top: 10vh;
-    font-size: 14px;
+    margin-top: 16vh;
 }
 
 .my-login-page .brand {
@@ -45,6 +35,9 @@ body {
 .my-login-page .card.fat h4 {
     color: yellow;
     font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .my-login-page .card .card-title {
@@ -98,12 +91,14 @@ body {
     border-radius: 20px;
     background-color: yellow;
     font-weight: 500;
+    color: black;
+    font-size: 17px;
 }
 
 .reg {
     color: white;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 500;
 }
 
