@@ -1,12 +1,17 @@
+* {
+    font-family: 'Poppins', sans-serif
+}
+
+
 .navbar {
     background-color: rgba(155, 88, 88, 0.5);
-
 }
 
 .navbar-brand {
-    color: yellow;
+    font-weight: 500;
 }
 
 .nav-link {
-    color: yellow;
+    color: black;
+    font-weight: 500;
 }
