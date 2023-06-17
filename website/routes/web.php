@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,11 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+//Model Home 
 Route::get('/', function () {
     return view('pages/home');
-}),
+});  
 
 
-// Route::get('/registrasi', [PagesController::class, 'registrasi' ]{
-// });
-
+// Model Form Login & Registrasi
+Route::get('/login',[FormController::class, 'login']);
+Route::get('/registrasi',[FormController::class, 'registrasi']);
