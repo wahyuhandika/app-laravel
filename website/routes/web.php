@@ -15,11 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages/home');
-});
-Route::get('/registrasi', function () {
-    return view('pages/registrasi');
-});
-Route::get('/login', function () {
-    return view('pages/login');
-});
+}),
+
+
+// Route::get('/registrasi', [PagesController::class, 'registrasi' ]{
+// });
 
