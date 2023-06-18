@@ -19,6 +19,15 @@ use App\Http\Controllers\FormController;
 Route::get('/', function () {
     return view('pages/home');
 });  
+Route::get('/pendaftaran', function () {
+    return view('pages/pendaftaran');
+});  
+Route::get('/absensi', function () {
+    return view('pages/absensi');
+});  
+Route::get('/materi', function () {
+    return view('pages/materi');
+});  
 
 
 // Model Form Login & Registrasi

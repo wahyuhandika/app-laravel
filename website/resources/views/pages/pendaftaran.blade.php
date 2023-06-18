@@ -6,5 +6,5 @@
 
 @section('content')
     @include('/partials.navbar')
-    @include('/partials.home')
+    @include('/partials.pendaftaran')
 @endsection
